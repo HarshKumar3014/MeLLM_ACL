@@ -1,0 +1,12 @@
+torch>=2.1
+transformers>=4.45
+vllm>=0.6
+datasets
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+tqdm
+nnsight
+autoawq

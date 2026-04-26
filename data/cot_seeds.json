@@ -1,0 +1,42 @@
+{
+  "en": {
+    "seed": "Let me think about this step by step.",
+    "tier": "high",
+    "name": "English"
+  },
+  "es": {
+    "seed": "Déjame pensar en esto paso a paso.",
+    "tier": "high",
+    "name": "Spanish"
+  },
+  "zh": {
+    "seed": "让我一步一步思考这个问题。",
+    "tier": "high",
+    "name": "Chinese"
+  },
+  "hi": {
+    "seed": "चलो इसे कदम दर कदम सोचते हैं।",
+    "tier": "mid",
+    "name": "Hindi"
+  },
+  "ar": {
+    "seed": "دعني أفكر في هذا خطوة بخطوة.",
+    "tier": "mid",
+    "name": "Arabic"
+  },
+  "bn": {
+    "seed": "আমাকে এটি ধাপে ধাপে ভাবতে দিন।",
+    "tier": "mid",
+    "name": "Bengali"
+  },
+  "sw": {
+    "seed": "Niruhusu nifikirie hili hatua kwa hatua.",
+    "tier": "low",
+    "name": "Swahili"
+  },
+  "my": {
+    "seed": "ဒီအကြောင်းကို တစ်ဆင့်ချင်း စဉ်းစားကြည့်ရအောင်။",
+    "tier": "low",
+    "name": "Burmese"
+  }
+}
