@@ -9,4 +9,4 @@ seaborn
 scipy
 tqdm
 nnsight
-autoawq
+bitsandbytes
