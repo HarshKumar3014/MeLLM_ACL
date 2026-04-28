@@ -189,7 +189,8 @@ def run_generation(
 
     llm = LLM(
         model=hf_id,
-        quantization="awq_marlin",
+        quantization="bitsandbytes",
+        load_format="bitsandbytes",
         dtype="half",
         max_model_len=4096,
         gpu_memory_utilization=0.90,
@@ -262,7 +263,8 @@ def run_judge(gen_path: Path, scored_path: Path):
     print(f"[*] Loading judge: {JUDGE_MODEL}...")
     judge_llm = LLM(
         model=JUDGE_MODEL,
-        quantization="awq_marlin",
+        quantization="bitsandbytes",
+        load_format="bitsandbytes",
         dtype="half",
         max_model_len=2048,
         gpu_memory_utilization=0.85,
